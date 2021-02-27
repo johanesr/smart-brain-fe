@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  .Tilt {
+    background: linear-gradient(to right, #04C8DE, #8eff5e);
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 25px auto 0 25px;
+
+    img {
+      height: 100px;
+      width: 100px;
+    }
+  }
+
+  .navbar-menu {
+    a {
+      color: #000000;
+      margin-right: 75px;
+      font-size: 24px;
+    }
+  }
+}
