@@ -1,8 +1,8 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './styles.scss';
 
 const ImageLink = () => {
-  const [imageInput, setImageInput] = useState('');
+  // const [imageInput, setImageInput] = useState('');
 
   return(
     <div className="image-link-wrapper">
